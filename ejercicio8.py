@@ -1,0 +1,5 @@
+base = int(input("introduzca la base del tríangulo:" ))
+altura = int(input("Introduzca la altura del tríangulo:" ))
+area=(base*altura/2)
+precio=int(input("Introduzca el precio por metro cuadrado:" ))
+print("Área =", area, "Precio=", (area*precio))
